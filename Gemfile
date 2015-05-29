@@ -2,15 +2,15 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.10"
+gem "middleman"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload"
 
 # Web Development Tools
-gem 'haml', '~> 4.0.5'
-gem 'coffee-script', '~> 2.3.0'
-gem 'sass', '~> 3.4.7'
+gem 'haml'
+gem 'coffee-script'
+gem 'sass'
 
 # API Support
 gem 'sinatra'
