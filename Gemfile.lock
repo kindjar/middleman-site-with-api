@@ -79,7 +79,7 @@ GEM
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
     minitest (5.14.4)
-    mustermann (1.1.1)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     padrino-helpers (0.15.1)
       i18n (>= 0.6.7, < 2)
@@ -89,10 +89,10 @@ GEM
     parallel (1.21.0)
     parslet (2.0.0)
     public_suffix (4.0.6)
-    rack (2.2.3)
+    rack (2.2.4)
     rack-livereload (0.3.17)
       rack
-    rack-protection (2.1.0)
+    rack-protection (3.0.2)
       rack
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
@@ -107,14 +107,14 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     servolux (0.13.0)
-    sinatra (2.1.0)
-      mustermann (~> 1.0)
-      rack (~> 2.2)
-      rack-protection (= 2.1.0)
+    sinatra (3.0.2)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.2)
       tilt (~> 2.0)
     temple (0.8.2)
     thor (1.1.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
     toml (0.3.0)
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.4)
@@ -137,4 +137,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   2.2.33
+   2.3.22
